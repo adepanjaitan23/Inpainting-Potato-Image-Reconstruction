@@ -1,8 +1,8 @@
 <div align="center">
 
 <!-- Ganti URL ini dengan URL Banner/Logo proyek Anda -->
+## 🥔 Potato Image Reconstruction (Inpainting) 🎨
 <img src="./assets/Banner-Potato-ImageReconstruction.jpg" alt="Potato Inpainting Banner" width="100%">
-# 🥔 Potato Image Reconstruction (Inpainting) 🎨
 
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](#)
 [![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=Keras&logoColor=white)](#)
@@ -10,7 +10,6 @@
 [![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)](#)
 
 *Proyek Deep Learning untuk memulihkan dan merekonstruksi bagian yang hilang pada citra kentang menggunakan arsitektur U-Net Autoencoder.*
-
 </div>
 
 ---
@@ -23,9 +22,6 @@ Berikut adalah performa model dalam merekonstruksi gambar kentang yang telah dip
   <img src="./assets/Potato-ImageReconstruction.png" alt="Potato Inpainting Result" width="100%">
 </div>
 
-*(Opsional: Jika Anda memiliki proses GIF dari epoch awal hingga akhir, Anda bisa menampilkannya di sini)*
-<!-- <img src="https://raw.githubusercontent.com/username/repo/main/assets/training_progress.gif" width="400"> -->
-
 ---
 
 ## 🧠 Arsitektur & Metodologi
@@ -33,7 +29,7 @@ Berikut adalah performa model dalam merekonstruksi gambar kentang yang telah dip
 Proyek ini memanfaatkan **U-Net Autoencoder** yang dimodifikasi. Model menerima gambar yang rusak dan belajar memprediksi piksel yang hilang dengan memahami konteks dari area di sekitarnya.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/username/repo/main/assets/unet_architecture.png" alt="U-Net Architecture Diagram" width="80%">
+  <img src="./assets/model.jpg" alt="Potato Inpainting Result" width="100%">
   <br>
   <i>Ilustrasi Arsitektur U-Net (Encoder-Decoder dengan Skip Connections)</i>
 </div>
@@ -50,7 +46,7 @@ Proyek ini memanfaatkan **U-Net Autoencoder** yang dimodifikasi. Model menerima 
 Kinerja model dipantau melalui kurva Loss dan metrik *Mean Absolute Error* (MAE) selama proses pelatihan.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/username/repo/main/assets/loss_graph.png" alt="Training & Validation Loss Graph" width="600">
+  <img src="./assets/train-val loss.png" alt="Training & Validation Loss Graph" width="600">
 </div>
 
 ---
