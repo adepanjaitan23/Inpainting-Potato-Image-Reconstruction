@@ -1,8 +1,7 @@
 <div align="center">
 
 <!-- Ganti URL ini dengan URL Banner/Logo proyek Anda -->
-<img src="https://raw.githubusercontent.com/username/repo/main/assets/banner.png" alt="Potato Inpainting Banner" width="100%">
-
+<img src="./assets/Banner-Potato-ImageReconstruction.jpg" alt="Potato Inpainting Banner" width="100%">
 # 🥔 Potato Image Reconstruction (Inpainting) 🎨
 
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](#)
@@ -21,19 +20,7 @@
 Berikut adalah performa model dalam merekonstruksi gambar kentang yang telah dipotong (*masked*) secara acak:
 
 <div align="center">
-  <!-- Gunakan format tabel HTML untuk menyejajarkan gambar dengan rapi -->
-  <table>
-    <tr>
-      <td align="center"><b>Original Image</b></td>
-      <td align="center"><b>Masked Input (Corrupted)</b></td>
-      <td align="center"><b>Reconstructed Output</b></td>
-    </tr>
-    <tr>
-      <td><img src="https://raw.githubusercontent.com/username/repo/main/assets/original_sample.png" width="250"></td>
-      <td><img src="https://raw.githubusercontent.com/username/repo/main/assets/masked_sample.png" width="250"></td>
-      <td><img src="https://raw.githubusercontent.com/username/repo/main/assets/reconstructed_sample.png" width="250"></td>
-    </tr>
-  </table>
+  <img src="./assets/Potato-ImageReconstruction.png" alt="Potato Inpainting Result" width="100%">
 </div>
 
 *(Opsional: Jika Anda memiliki proses GIF dari epoch awal hingga akhir, Anda bisa menampilkannya di sini)*
